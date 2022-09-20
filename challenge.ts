@@ -3,7 +3,7 @@ export interface User {
 	age: number;
       }
 
-const prettyPrintWilder = (users: Array<User>) => {
+const prettyPrintWilder = (users: Array<User>):void => {
 users.map((user) => {
 console.log(`${user.name} is ${user.age} years old`);
 });
